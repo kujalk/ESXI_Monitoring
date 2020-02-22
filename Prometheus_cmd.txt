@@ -1,0 +1,1 @@
+docker run -d --name=prometheus_server -p 9090:9090 -v ~/monitor-esxi/prometheus_vol/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus --config.file=/etc/prometheus/prometheus.yml

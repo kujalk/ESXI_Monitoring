@@ -1,0 +1,1 @@
+docker run -d --restart=always --name=exporter_esxi_3 --env=ESX_HOST=193.164.3.223 --env=ESX_USERNAME=jana --env=ESX_PASSWORD=xxxxxx --env=ESX_LOG=debug --env=ESX_LISTEN=:9512 prometheus-vmware-exporter

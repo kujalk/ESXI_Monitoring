@@ -1,0 +1,1 @@
+docker run --name=Grafana --user 1000 -d -p 3050:3000 -e GF_SECURITY_ADMIN_PASSWORD=HelloWorld -v ~/monitor-esxi/grafana/:/var/lib/grafana grafana/grafana
